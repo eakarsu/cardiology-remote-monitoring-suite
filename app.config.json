@@ -1,0 +1,145 @@
+{
+  "slug": "cardiology-remote-monitoring-suite",
+  "title": "Cardiology Remote Monitoring Suite",
+  "buyer": "Cardiology groups, health systems, RPM providers",
+  "description": "Remote cardiac device monitoring, hypertension programs, heart failure alerts, care plans, and billing operations.",
+  "modules": [
+    {
+      "id": "device-feeds",
+      "table": "deviceFeeds",
+      "label": "Device Feeds",
+      "description": "Device Feeds workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "Pacemaker alerts",
+        "ICD events",
+        "Patch monitor"
+      ],
+      "prefix": "DF",
+      "seedValues": [
+        "Pacemaker alerts",
+        "ICD events",
+        "Patch monitor"
+      ]
+    },
+    {
+      "id": "heart-failure",
+      "table": "heartFailure",
+      "label": "Heart Failure",
+      "description": "Heart Failure workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "Weight trends",
+        "Symptom flags",
+        "Diuretic plan"
+      ],
+      "prefix": "HF",
+      "seedValues": [
+        "Weight trends",
+        "Symptom flags",
+        "Diuretic plan"
+      ]
+    },
+    {
+      "id": "hypertension",
+      "table": "hypertension",
+      "label": "Hypertension Program",
+      "description": "Hypertension Program workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "BP readings",
+        "Medication titration",
+        "Adherence"
+      ],
+      "prefix": "HP",
+      "seedValues": [
+        "BP readings",
+        "Medication titration",
+        "Adherence"
+      ]
+    },
+    {
+      "id": "arrhythmia",
+      "table": "arrhythmia",
+      "label": "Arrhythmia Review",
+      "description": "Arrhythmia Review workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "AF burden",
+        "Rate control",
+        "Anticoagulation"
+      ],
+      "prefix": "AR",
+      "seedValues": [
+        "AF burden",
+        "Rate control",
+        "Anticoagulation"
+      ]
+    },
+    {
+      "id": "care-team",
+      "table": "careTeam",
+      "label": "Care Team Queue",
+      "description": "Care Team Queue workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "Nurse review",
+        "Provider sign-off",
+        "Escalations"
+      ],
+      "prefix": "CTQ",
+      "seedValues": [
+        "Nurse review",
+        "Provider sign-off",
+        "Escalations"
+      ]
+    },
+    {
+      "id": "billing",
+      "table": "billing",
+      "label": "RPM Billing",
+      "description": "RPM Billing workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "99453",
+        "99454",
+        "99457 readiness"
+      ],
+      "prefix": "RB",
+      "seedValues": [
+        "99453",
+        "99454",
+        "99457 readiness"
+      ]
+    },
+    {
+      "id": "patient-engagement",
+      "table": "patientEngagement",
+      "label": "Patient Engagement",
+      "description": "Patient Engagement workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "Messages",
+        "Education",
+        "Check-ins"
+      ],
+      "prefix": "PE",
+      "seedValues": [
+        "Messages",
+        "Education",
+        "Check-ins"
+      ]
+    },
+    {
+      "id": "quality",
+      "table": "quality",
+      "label": "Quality Measures",
+      "description": "Quality Measures workspace for Cardiology Remote Monitoring Suite.",
+      "subfeatures": [
+        "Control rates",
+        "Readmissions",
+        "SLA tracking"
+      ],
+      "prefix": "QM",
+      "seedValues": [
+        "Control rates",
+        "Readmissions",
+        "SLA tracking"
+      ]
+    }
+  ],
+  "port": 5605
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cardiology-remote-monitoring-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remote cardiac device monitoring, hypertension programs, heart failure alerts, care plans, and billing operations.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
